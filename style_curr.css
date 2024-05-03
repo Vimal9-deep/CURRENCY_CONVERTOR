@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+}   
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 40, 72);
+}
+.container{
+    
+    padding: 0.4% 1% 1%;
+     margin:1% 1%;
+    border-radius: 2rem;
+    background-color: rgb(217, 75, 99);
+    
+}
+.ig{
+    height: 35vh;
+    width: 90vh;
+    gap: 2px;
+}
+.ig>img{
+    object-fit:fill;
+    height: 100%;
+    width: 100%;
+    border-radius: 31px;
+
+}
+
+form{
+    margin: 2rem 0 1rem 0;
+}
+form input,button,select{
+    width: 100%;
+    border: none;
+    outline:none;
+    border-radius: 0.5rem;
+}
+form input{
+    border:2px solid rgb(7, 151, 7);
+    font-size: 1rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.select_container img{
+    max-width: 1.5re;
+}
+.select_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border:2px solid rgb(7, 151, 7);
+    background-color: rgb(138, 211, 204);
+
+}
+.select_container select{
+     font-size: 1rem;
+}
+.msg{
+    margin:2rem 0 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1rem solid lightgreen;
+    background-color: lightgreen;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form button{
+    height: 3rem;
+    background-color: rgb(189, 14, 14);
+    color: antiquewhite;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.arrow{
+    height:1px;
+    
+}
+p{
+    font-size: 23px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 29%;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 1%;
+}
