@@ -1,4 +1,4 @@
-export { countryList };
+export { countryList }; 
 const countryList = {
   AED: "AE", 
   AFN: "AF",

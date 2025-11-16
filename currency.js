@@ -1,5 +1,5 @@
 
-import { countryList } from './codes.js'; 
+import { countryList } from './codes.js';  
 
 const base_URL= "https://open.er-api.com/v6/latest";
 const dropdowns=document.querySelectorAll(".dropdown select");
@@ -13,7 +13,7 @@ for(let select of dropdowns)
 {
    for(let code in countryList)
    {
-      let newoptn=document.createElement("option");
+      let newoptn=document.createElement("option"); 
       newoptn.innerText=code;
       newoptn.value=code;
       if(select.name=="from"&& code=="USD")
